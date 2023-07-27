@@ -1,0 +1,161 @@
+
+
+
+.collapsible-contenant{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 30px;
+    margin-top: 60px;
+    width: 100%;
+
+}
+.collapsible-button{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border-style : none;
+    background-color:#FF6060;
+    width: 100%;
+    height: 70px;
+    border-radius: 5px ;
+
+}
+
+.collapsible-contenant-button{
+    display: flex;
+    justify-content: center;
+    width:100%;
+}
+
+.img-arrow{
+    width: 5%;
+}
+
+.text-button{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+
+.text-contenant{
+    width: 100%;
+    padding-bottom: 20px;
+    background: #F6F6F6;
+    border-radius: 0px 0px 15px 15px ;
+    height: 35vh;
+}
+
+.text-description{
+    color:#FF6060 ;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.arrowDown{
+    color: white;
+    width: 5%;
+}
+
+.arrowUp{
+    color: white;
+    width: 5%;
+    padding-right: 10px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .collapsible-contenant{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 00px;
+        margin-top: 60px;
+    }
+
+    .collapsible-button{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        border-style : none;
+        background-color:#FF6060;
+        width: 100%;
+        height: 70px;
+        border-radius: 5px ;
+        margin-left: 0px;
+    
+    }
+
+    .text-contenant{
+        width: 100%;
+        height: 100%;
+        background: #F6F6F6;
+        border-radius: 0px 0px 15px 15px ;
+    }
+
+    .arrowDown{
+        color: white;
+        width: 10%;
+    }
+    
+    .arrowUp{
+        color: white;
+        width: 10%;
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+    .collapsible-contenant{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 00px;
+        margin-top: 50px;
+    }
+
+    .collapsible-button{
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        border-style : none;
+        background-color:#FF6060;
+        height: 70px;
+        border-radius: 5px ;
+        margin-left: 0px;
+    
+    }
+
+    .text-contenant{
+        width: 100%;
+        height: 105vh;
+        margin-left: 0px;
+        background: #F6F6F6;
+        border-radius: 0px 0px 15px 15px ;
+    }
+
+    .arrowDown {
+        color: white;
+        width: 10%;
+    }
+
+    .arrowUp {
+        color: white;
+        width: 10%;
+        padding-right: 10px;
+    }
+}
+
+
+
+
+/* .collapsible-contenant{
+    display: flex;
+    justify-content: space-between;
+} */

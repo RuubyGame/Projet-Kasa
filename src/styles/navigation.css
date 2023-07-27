@@ -1,0 +1,110 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    margin: 0px;
+    flex-basis: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-basis: 20%;
+}
+
+.nav-bar a.active:hover {
+    border-bottom: solid 2px #FF6060;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inactive {
+    text-align: center;
+    color: #FF6060;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+/* ---------------------- PARTIE MEDIA QUERIE TABLETTE -------------------------------- */
+
+
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 600px*/
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 20px;
+        margin: 0px;
+        flex-basis: 50%;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-basis: 30%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+        margin: 0px;
+        flex-basis: 100%;
+    }
+
+    .nav-bar {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-basis: 35%;
+    }
+
+}
+
+
+/* ---------------------- PARTIE MEDIA QUERIE MOBILE -------------------------------- */
+
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 600px*/
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 20px;
+        margin: 0px;
+        flex-basis: 100%;
+    }
+
+    .nav-bar {
+        display: flex;
+        
+        justify-content: space-around;
+        text-align: center;
+        flex-basis: 80%;
+    }
+
+    .inactive {
+        text-align: center;
+        color: #FF6060;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+    }
+
+}

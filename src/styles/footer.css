@@ -1,0 +1,51 @@
+.footer-Background {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.footer-Logo {
+    width: 6%;
+    padding-top: 65px;
+    margin-bottom: 30px;
+}
+
+.footer-contenant-img{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.text-Footer {
+    color: white;
+    font-size: 25px;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .footer-Logo {
+        width: 50%;
+        padding-top: 65px;
+        margin-bottom: 30px;
+    }
+    
+    
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+    .footer-Logo {
+        width: 20%;
+        padding-top: 65px;
+        margin-bottom: 30px;
+    }
+    
+}

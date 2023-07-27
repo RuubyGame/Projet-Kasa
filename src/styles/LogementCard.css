@@ -1,0 +1,208 @@
+.logement-title-host {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6060;
+}
+
+.logement-background {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logement-host {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6060;
+    margin: 0px;
+    padding: 0px;
+}
+
+.host-name {
+    display: flex;
+    align-items: center;
+    text-align: end;
+    width: 40%;
+    padding-right: 20px;
+
+}
+
+.host-img {
+    border-radius: 50%;
+    width: 35%;
+}
+
+.logement-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.logement-info {
+    margin-left: 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #FF6060;
+}
+
+.logement-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.star {
+    padding-top: 20px;
+}
+
+.tags-star {
+    display: flex;
+}
+
+.tags {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #FF6060;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 30px;
+}
+
+.title-info {
+    margin: 0;
+    padding: 0;
+}
+
+.logement-collapsible {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+}
+
+.logement-collap-with {
+    width: 50%;
+    margin-right: 20px;
+}
+
+.logement-collap-equip-contenant {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    margin: 0px;
+}
+
+.flex-equip {
+    display: flex;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .logement-background {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logement-title-host {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        color: #FF6060;
+    }
+
+    .logement-tags {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .host-img {
+        border-radius: 50%;
+        width: 25%;
+    }
+    
+    .logement-host {
+        display: flex;
+        justify-content: flex-end;
+        font-family: 'Montserrat', sans-serif;
+        color: #FF6060;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .star {
+        padding-top: 20px;
+        margin-left: 40px;
+    }
+
+    .logement-collapsible {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logement-collap-with {
+        width: 95%;
+        margin-right: 20px;
+    }
+
+    .tags {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 5px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: #FF6060;
+        width: 24vh;
+        height: 8vh;
+        border-radius: 30px;
+    }
+
+    .tags-star {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+    .tags {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: #FF6060;
+        width: 35vh;
+        height: 15vh;
+        border-radius: 30px;
+    }
+
+    .logement-title-host {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        color: #FF6060;
+    }
+
+    .logement-collapsible {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+    }
+
+}

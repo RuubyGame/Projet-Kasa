@@ -1,0 +1,55 @@
+.logo {
+    padding: 0;
+    margin: 0;
+    width: 15%;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .logo {
+        padding: 0;
+        margin: 0;
+        width: 20%;
+    }
+
+    .logo-width {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}
+
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .logo {
+        padding: 0;
+        margin: 0;
+        width: 25%;
+    }
+
+    .logo-width {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
+
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 600px*/
+@media (min-width: 320px) and (max-width: 480px) {
+    .logo {
+        padding: 0;
+        margin: 0;
+        width: 45%;
+    }
+
+    .logo-width {
+        width: 100%;
+        height: 100%;
+    }
+
+
+}

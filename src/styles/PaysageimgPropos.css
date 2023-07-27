@@ -1,0 +1,45 @@
+.banner-About{
+    width: 92%;
+    margin-left: 50px;
+    margin-top: 60px;
+    height: 30vh;
+    background: url("../../public/montagne-bleu.png");
+    border-radius: 25px;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(60%);
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner-About{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 60px;
+        height: 250px;
+        background: url("../../public/montagne-bleu.png");
+        border-radius: 25px;
+        background-size: cover;
+        background-position: center;
+        filter: brightness(60%);
+    }
+    
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+    .banner-About{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 60px;
+        height: 200px;
+        background: url("../../public/montagne-bleu.png");
+        border-radius: 25px;
+        background-size: cover;
+        background-position: center;
+        filter: brightness(60%);
+    }
+    
+}
+
+

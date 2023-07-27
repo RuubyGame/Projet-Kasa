@@ -1,0 +1,48 @@
+/* .img-about-contenant{
+    width: 50%;
+} */
+
+.aproposDisplay {
+    display: flex;
+    flex-direction: column;
+}
+
+.collapsible-text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 100px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .aproposDisplay {
+        display: inherit;
+        flex-direction: inherit;
+    }
+
+    .collapsible-text {
+        display: inherit;
+        justify-content: inherit;
+        text-align: inherit;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+    .collapsible-text {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .aproposDisplay {
+        display: flex;
+        flex-direction: column;
+    }
+}

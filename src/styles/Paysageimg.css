@@ -1,0 +1,377 @@
+.banner {
+    position: relative;
+    height: 45vh;
+    width: 95%;
+    background: url("../../public/IMG.png");
+    background-size: cover;
+    background-position: center center;
+    border-radius: 35px;
+    top: 50%;
+    left: 3%;
+    margin-top: 35px;
+    margin-right: 0px;
+    filter: brightness(60%);
+}
+
+.banner-content{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner-text{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    z-index: 999;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .banner {
+        position: relative;
+        height: 26vh;
+        width: 95%;
+        background: url("../../public/IMG.png");
+        background-size: cover;
+        background-position: center center;
+        border-radius: 15px;
+        top: 0%;
+        left: 0%;
+        margin-top: 35px;
+        margin-right: 10px;
+        margin-left: 10px;
+        filter: brightness(60%);
+    }
+
+    .banner-content{
+        position: absolute;
+        top: 30%;
+        left: 37%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 600px) and (max-width: 699px) {
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-content{
+        position: absolute;
+        top: 52%;
+        left: 40%;
+        transform: translate(-30%, -50%);
+    }
+}
+
+
+
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-content{
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-30%, -50%);
+    }
+}
+
+
+
+/* @media (min-width:900px){
+    .banner-content{
+        position: absolute;
+        top: 34%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .paysage-img {
+    display: block;
+    object-fit: cover;
+    width: 92%;
+    height: 200px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 35px;
+    filter: brightness(75%);
+    z-index: -1;
+}
+
+.test_img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.test-img-2{
+    display: flex;
+}
+
+.paysage-text {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    color: white;
+    z-index: 999;
+} */
+
+
+
+/* ---------------------- PARTIE MEDIA QUERIE TABLETTE -------------------------------- */
+
+
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 600px*/
+/* @media screen and (max-width: 700px) {
+
+    .paysage-img {
+        position: fixed;
+        display: block;
+        object-fit: cover;
+        padding-left: 10px;
+        top: 130px;
+        width: 95%;
+        height: 16%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 15px;
+        filter: brightness(60%);
+        z-index: -1;
+    }
+
+    .paysage-text {
+        position: relative;
+        top: 68px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        color: white;
+        z-index: 999;
+        white-space: inherit;
+        width: 95%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    .paysage-img {
+        position: fixed;
+        display: block;
+        object-fit: cover;
+        padding-left: 10px;
+        top: 140px;
+        width: 95%;
+        height: 30%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 35px;
+        filter: brightness(60%);
+        z-index: -1;
+    }
+
+    .paysage-text {
+        position: relative;
+        top: 100px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        color: white;
+        z-index: 999;
+        white-space: inherit;
+        width: 95%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 699px) {
+
+    .paysage-img {
+        position: fixed;
+        display: block;
+        object-fit: cover;
+        padding-left: 10px;
+        top: 140px;
+        width: 95%;
+        height: 35%;
+        margin-left: 0px;
+        margin-right: 0px;
+        border-radius: 15px;
+        filter: brightness(60%);
+        z-index: -1;
+    }
+
+    .paysage-text {
+        position: relative;
+        top: 60px;
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        color: white;
+        z-index: 999;
+        white-space: inherit;
+        width: 95%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin: 0;
+        padding-left: 20px;
+    }
+}
+ */
+
+
+/* @media (min-width: 481px) and (max-width: 767px) {
+
+} */
+
+
+/* ---------------------- PARTIE MEDIA QUERIE MOBILE -------------------------------- */
+
+/*Pour tous les appareils équipés d'écrans et dont la taille est inférieure à 600px*/
+/* @media (min-width: 320px) and (max-width: 480px) {
+
+    .paysage-img {
+        position: fixed;
+        display: block;
+        object-fit: cover;
+        top: 130px;
+        width: 95%;
+        height: 20%;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 0px;
+        border-radius: 15px;
+        filter: brightness(60%);
+        z-index: -1;
+    }
+
+    .paysage-text {
+        position: relative;
+        top: 37px;
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+        color: white;
+        z-index: 999;
+        white-space: pre-wrap;
+        width: 59%;
+        padding-left: 15px;
+    }
+
+} */
