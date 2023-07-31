@@ -104,6 +104,7 @@
     .logement-background {
         display: flex;
         flex-direction: column;
+        margin-top: 92px;
     }
 
     .logement-title-host {
@@ -205,4 +206,53 @@
         display: flex;
     }
 
+}
+
+
+@media (min-width: 700px) and (max-width: 799px) {
+    .contenant-arrow {
+        margin-left: 0px;
+        margin-right: 0px;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .carousel-container {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+    
+    .tags {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: #FF6060;
+        width: 40vh;
+        height: 16vh;
+        border-radius: 30px;
+    }
+
+    .logement-title-host {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        color: #FF6060;
+        width: 66%;
+    }
+    .logement-title {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        width: 50%;
+    }
+    
 }

@@ -65,6 +65,19 @@
     }
 }
 
+@media (min-width: 700px) and (max-width: 799px) {
+
+    .banner-text {
+        width: 100%;
+    }
+
+    .banner-content{
+        position: absolute;
+        top: 57%;
+        left: 40%;
+        transform: translate(-30%, -50%);
+    }
+}
 
 
 

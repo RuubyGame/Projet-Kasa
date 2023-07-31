@@ -88,6 +88,7 @@
 
 }
 
+
 @media (min-width: 500px) and (max-width: 699px) {
     .card-Background {
         position: relative;
@@ -112,6 +113,31 @@
         width: 95%;
     }
 }
+
+
+@media (min-width: 700px) and (max-width: 799px) {
+    .card-Background {
+        position: relative;
+        height: 64vh;
+        width: 37%;
+        margin-left: 40px;
+        margin-right: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 25px;
+        text-decoration: none;
+    }
+
+    .text-card {
+        position: relative;
+        bottom: 94px;
+        left: 10px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        width: 100%;
+    }
+}
+
 
 
 

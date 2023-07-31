@@ -23,3 +23,16 @@
 
 
 }
+
+
+@media (min-width: 700px) and (max-width: 799px) {
+    .background-star{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        width: 6vh;
+    }
+
+}

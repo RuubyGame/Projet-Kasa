@@ -152,6 +152,56 @@
     }
 }
 
+@media (min-width: 600px) and (max-width: 699px) {
+    .tags {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-right: 20px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        background-color: #FF6060;
+        width: 35vh;
+        height: 15vh;
+        border-radius: 30px;
+    }
+
+    .logement-title-host {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+        flex-direction: column;
+        font-family: 'Montserrat', sans-serif;
+        color: #FF6060;
+    }
+
+    .logement-collapsible {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+    }
+
+}
+
+
+@media (min-width: 700px) and (max-width: 799px) {
+    .text-contenant {
+        width: 100%;
+        padding-bottom: 20px;
+        background: #F6F6F6;
+        border-radius: 0px 0px 15px 15px;
+        height: 78vh;
+    }
+
+    .arrowDown {
+        color: white;
+        width: 10%;
+    }
+    
+}
+
+
 
 
 

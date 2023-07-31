@@ -49,3 +49,13 @@
     }
     
 }
+
+@media (min-width: 700px) and (max-width: 799px) {
+    .footer-Logo {
+        width: 10%;
+        padding-top: 65px;
+        margin-bottom: 30px;
+    }
+    
+}
+
