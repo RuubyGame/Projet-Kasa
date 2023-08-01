@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter,Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Apropos from './pages/Apropos';
 import Erreur404 from './pages/Erreur404';
@@ -11,12 +11,10 @@ const App = () => {
 
     <Routes>
       <Route path="/" element = {<Home />}/>
-      <Route path='/home' element = {<Home />}/>
+      <Route path='/Home' element = {<Home />}/>
       <Route path='/apropos' element = {<Apropos />}/>
-      <Route path='/apropos/*' element = {<Apropos />}/>
-      <Route path='/logement/:id' element = {<PageLogement />} />
-      <Route path='/logement/:id/*' element = {<Home />} />
-      <Route path='*' element = {<Erreur404 />}/>
+      <Route path='/logement/:id' exact element = {<PageLogement />} />
+      <Route path='*' exact element = {<Erreur404 />}/>
     </Routes>
 
     </BrowserRouter>

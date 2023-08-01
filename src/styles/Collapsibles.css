@@ -48,7 +48,6 @@
     padding-bottom: 20px;
     background: #F6F6F6;
     border-radius: 0px 0px 15px 15px ;
-    height: 35vh;
 }
 
 .text-description{
@@ -60,7 +59,7 @@
 
 .arrowDown{
     color: white;
-    width: 5%;
+    width: 3%;
 }
 
 .arrowUp{

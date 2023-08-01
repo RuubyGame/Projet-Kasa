@@ -10,8 +10,6 @@ const Ratestar = ({ score }) => {
         <div className='background-star'>
             {stars.map ((level)=>
                 score >= level ? (
-
-                    
                     <img
                     key={level.toString()}
                     className='starFull'

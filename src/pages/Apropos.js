@@ -11,8 +11,8 @@ const Apropos = () => {
 
     return (
         <div>
-            <Navigation/>
-            <PaysageimgPropos/>
+            <Navigation />
+            <PaysageimgPropos />
 
             <div className='aproposDisplay'>
 

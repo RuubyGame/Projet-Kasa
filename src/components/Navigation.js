@@ -5,19 +5,22 @@ import Logo from '../components/Logo';
 
 const Navigation = () => {
     return (
+
         <header className='navigation'>
             <Logo />
             <div className='nav-bar'>
-                <div>
-                <NavLink to="/" className="inactive active">
+
+                <NavLink className={({ isActive }) => {
+                    return isActive ? " active" : "inactive"
+                }} to="/">
                     Accueil
                 </NavLink>
-                </div>
-                <div>
-                <NavLink to="apropos" className="inactive active">
+
+                <NavLink className={({ isActive }) => {
+                    return isActive ? "active" : "inactive"
+                }} to="/apropos">
                     A Propos
                 </NavLink>
-                </div>
             </div>
         </header>
     );

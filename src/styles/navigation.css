@@ -16,9 +16,11 @@
     flex-basis: 20%;
 }
 
-.nav-bar a.active:hover {
-    border-bottom: solid 2px #FF6060;
+.active {
     font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #FF6060;
+    font-size: 20px;
 }
 
 .inactive {
